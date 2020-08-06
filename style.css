@@ -1,0 +1,128 @@
+.container-fluid{
+    background-color: #005691;
+    line-height: 1.5;
+    padding: 5% 15% ;
+    color: #e4f6f6;
+}
+
+.container-fluid h1{
+    font-family: "Montserrat";
+    font-size: 4rem;
+}
+
+.container-fluid h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+}
+
+.container-fluid p{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+
+.troll{
+    height: 40%;
+    width: 30%;
+    border-radius: 50%;
+    padding: 7% 15%;
+}
+
+.container-fluid .col-lg-6{
+    margin-top: 7%;
+}
+
+
+/**  features section over here  **/
+
+#about{
+    font-family: "Ubuntu";
+}
+
+.aboutSec{
+    padding: 7% 15% !important;
+}
+
+.aboutMe{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.aboutMe h2{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.aboutIcons{
+    color: red;
+    transition: 0.6s;
+}
+
+.aboutIcons:hover{
+    color: #ff19af;
+}
+
+
+/*****its showcase time*/
+
+#showcase{
+    background-color: #005691;
+    color: #fff;
+    text-align: center;
+}
+
+#showcase img{
+    height: 90%;
+    width: 70%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 4% 10%;
+}
+
+.carousel-item h2{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+}
+
+.carousel-item p{
+    margin-top: 30px;
+    padding-bottom: 5%;
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+
+/* end */
+
+.end{
+    padding: 15% 7%;
+}
+
+.end h1{
+    font-family: "Montserrat";
+}
+
+.end p{
+    font-family: "Ubuntu";
+    font-size: 1.8rem;
+}
+
+/* contact */
+
+.contact-me{
+    background: #005691;
+    color: #fff;
+    text-align: center;
+    padding: 7.5% 5%;
+}
+
+.socialIcon{
+    padding: 5px;
+}
+
+@media (min-width: 800){
+    .container-fluid{
+        text-align: center;
+    }
+}
